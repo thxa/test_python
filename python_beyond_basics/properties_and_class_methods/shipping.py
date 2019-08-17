@@ -18,7 +18,7 @@ class ShippingContainer(object):
 	
 	@classmethod
 	def _get_next_serial(cls):
-		result =  cls.next_serial # or self.next_serial
+		result = cls.next_serial # or self.next_serial
 		cls.next_serial += 1
 		return result
 

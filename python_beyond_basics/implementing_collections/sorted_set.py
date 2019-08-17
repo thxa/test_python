@@ -125,6 +125,5 @@ class SortedSet(Sequence, Set):
 	# def __sub__(self, other):
 	# 	return self - other
 	# Set Protocol ###
-
 	def copy(self):
 		return SortedSet(self._items)
